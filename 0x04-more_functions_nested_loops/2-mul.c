@@ -9,11 +9,6 @@
 
 int mul(int a, int b)
 {
-	int a;
-	int b;
 
-	_putchar("%d\n", mul(38, 124));
-	_putchar("%d\n", mul(28, 184));
-
-	return (0);
+	return (a * b);
 }
