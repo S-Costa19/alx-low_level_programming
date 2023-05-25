@@ -3,9 +3,11 @@
 /*
  * _isalpha - entry point
  * @c: the the value its recieved
- * description: check if alphabet is lower or upper
+ * Description:if the given character is an uppercase letter.
+ * It returns 1 if the character is uppercase and 0 otherwise.
  * Return: 1 when the character is upper. 0 otherwise
  */
+
 int _isupper(int c)
 
 {
