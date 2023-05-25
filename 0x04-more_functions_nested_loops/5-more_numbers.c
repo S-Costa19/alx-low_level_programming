@@ -1,21 +1,31 @@
-#include <stdio.h>
+#include<stdio.h>
 #include "main.h"
+
 /**
- * more_numbers - print numbers x10 times
- * function that prints 10 times numbers
+ * more_numbers - prints 0 - 14
  * Return: void
  */
+
 void more_numbers(void)
+
 {
-int sm;
+
+char n, c;
 int i = 0;
-while (i <= 9)
+while (i < 10)
 {
-for (sm = '0'; sm <= '14'; sm++)
+for (n = 0; n <= 14; n++)
 {
-putchar(sm);
+c = n;
+if (n > 9)
+{
+_putchar('1');
+c = n % 10;
 }
-putchar('\n');
+_putchar('0' + c);
+
+}
+_putchar('\n');
 i++;
 }
 
