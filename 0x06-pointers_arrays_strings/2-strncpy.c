@@ -21,3 +21,4 @@ dest[index] = src[index];
 for (index = src_len; index < n; index++)
 dest[index] = '\0';
 return (dest);
+}
